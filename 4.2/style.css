@@ -9,12 +9,12 @@ html {
 /* Custom Font */
 @font-face {
   font-family: HelloHiFont;
-  src: url(/fonts/ftltlt-webfont.woff);
+  src: url(font/ftltlt-webfont.woff);
 }
 
 @font-face {
   font-family: HelloHiFont2;
-  src: url(/fonts/ftltlt-webfont2.woff);
+  src: url(font/ftltlt-webfont2.woff);
 }
 
 
@@ -102,6 +102,7 @@ align-content: center;
   background-color: #fff;
   margin-top: 170px;
   border-bottom-right-radius: 200px;
+  
 
 }
 .product-info h2 {
@@ -122,6 +123,7 @@ align-content: center;
   display: inline-block;
   background: black;
   color: white;
+  text-decoration-line: none;
 }
 
 
