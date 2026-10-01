@@ -1,45 +1,45 @@
-h1{
+html{
+    background-color: #f5f5f5;
+    font-family: "merriweather", serif
+}
+
+body{
     font-family: "Merriweather", serif;
 }
 
 nav{
-    font-family: "Merriweather", serif;
+    text-align: center;
+    display: flex;
+    gap: 60px;
 }
 
-h2{
-    font-family: "Merriweather", serif;
+.navbar {
+  background: #7b5ce0;
+  padding: 15px 0;
+  text-align: center;
 }
 
-p{
-    font-family: "Merriweather", serif;
-}
-section{
-    font-family: "Merriweather", serif;
-}
-ul{
-    font-family: "Merriweather", serif;
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-li{
-    font-family: "Merriweather", serif;
+.navbar ul li{
+    display: inline-block;
 }
 
-button{
-    font-family: "Merriweather", serif;
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
 }
 
-footer{
-    font-family: "Merriweather", serif;
+.a1 {
+    text-decoration: none;
+    color: white;
+    padding-left: 200px;
 }
-
-hero {
-    'HelloHi'
-}
-
-header{
-    
-}
-
-a{
+.a1 :visited{
     
 }
