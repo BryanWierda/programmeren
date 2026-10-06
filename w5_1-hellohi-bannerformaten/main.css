@@ -1,0 +1,48 @@
+.stage {  
+    position: relative;
+    cursor: pointer;
+    
+    -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;    
+   overflow: hidden;    
+}
+
+.bannerSize{ 
+width: 300px; 
+height: 250px; 
+background-color: black;
+}
+
+body{
+    color: white;
+}
+
+.hi{
+height: 40px;
+position: absolute;
+left: 90px;
+top: 5px;
+}
+
+.sim{
+height: 110px;
+position: absolute;
+left: 220px;
+top: 20px;
+}
+.buttn{
+background-color: #9000ff;
+color: white;
+border-radius: 10px;
+left: 190px;
+top: 200px;
+position: absolute;
+padding: 10px;
+border-color: white;
+border-width: 2px;
+}
+
+li{
+    list-style-type: none;
+}
