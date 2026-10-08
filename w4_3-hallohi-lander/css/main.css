@@ -202,3 +202,30 @@ img {
   width: 300px;
   height: auto;
 }
+
+.dropdown{
+  position: relative;
+  display: inline;
+}
+
+.dropdown-menu{
+display: none;
+position: absolute;
+top: 100%;
+left: -5px;
+background-color: #7272dd;
+min-width: 100px;
+}
+.dropdown-menu a{
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  border-bottom-right-radius: 75px;
+  color: white;
+}
+.dropdown-menu a:hover{
+  color: black;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
