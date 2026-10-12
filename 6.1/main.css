@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.block-1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.block-2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.block-3{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.block-4{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
